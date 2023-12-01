@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../EFENA"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EFENA"
+	}
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.main-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_437743.jpg)no-repeat center/cover;
+    background-size: cover;
+    background-position: center center;  
+    opacity: .8;
+
+   
+
+.main-body.active {
+    height: 900px;
+}
+
+/*@media (max-width: 768px) {
+    .main-body {
+      background-size: contain; /* or any other value appropriate for smaller screens */
+   
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 430px;
+    margin: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+}
+
+.container .form.signup,
+.container.active .form.signin {
+    display: none;
+
+}
+
+.form.signup.active {
+    height: 500px;
+}
+
+.container.active .form.signup {
+    display: block;    
+} 
+
+
+
+
+/*.container .form.btn {
+    transition: transform .18s ease;
+}
+
+.container.active .form.btn {
+    transition: none;
+    transform: translateX(-400px);
+}
+
+/*.container .form.register {
+    position: absolute;
+    transition: none;
+    transform: translate(40px);
+}
+
+.container .form.register {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}*/
+
+h2 {
+    margin: 90px;
+    font-size: 2.5em;
+    padding-bottom: 50px;
+}
+
+
+.form-label {
+    display: flex;
+    margin: 3%;
+    font-size: 1em;
+   
+}
+
+.form-control {
+    background: transparent;
+    position: relative;
+     width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.custom-control {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.password-content {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.0em;
+}
+
+.btn {
+    width: 100%;
+    margin-left: px;
+    margin-top: 20px
+}
+
+.third-content {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.link {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.0em;
+}
+
+.register {
+    background-color: blue;
+    border-radius: 8px;
+    height: 2.5em;
+    width: 100%;
+    margin-left: 4px;
+    margin-top: 20px
+}
+
